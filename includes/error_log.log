@@ -1,0 +1,3475 @@
+[20-Jul-2019 03:56:57 UTC] $intOrderID
+[20-Jul-2019 03:56:57 UTC] 3874
+[20-Jul-2019 03:56:57 UTC] $arrData
+[20-Jul-2019 03:56:57 UTC] Array
+(
+    [status] => 0
+    [msg] => Success
+    [card] => stdClass Object
+        (
+            [prime] => e8673accb34b8a1193695113bfcaf69701395ef72e8c3cba997db0593f3730dc
+            [issuer] => CitiBank
+            [lastfour] => 1262
+            [bincode] => 428440
+            [funding] => 0
+            [type] => 1
+            [level] => SIGNATURE
+            [country] => TAIWAN R.O.C.
+            [countrycode] => TW
+        )
+
+    [clientip] => 165.225.116.152
+    [card_identifier] => 255220f2e8874f638f02e955bb94aa75
+    [orderid] => 3874
+    [remember] => 1
+)
+
+[20-Jul-2019 03:56:57 UTC] $arrPostData
+[20-Jul-2019 03:56:57 UTC] Array
+(
+    [prime] => e8673accb34b8a1193695113bfcaf69701395ef72e8c3cba997db0593f3730dc
+    [partner_key] => partner_klskh0KNa6jCWSaaP50anzhdck7BKSC9mePuongUD4O3LgKECUfczlnn
+    [merchant_id] => yiyuflorist_00001
+    [amount] => 1424
+    [currency] => TWD
+    [order_number] => 3874005657
+    [details] => online order
+    [cardholder] => Array
+        (
+            [phone_number] => +886921735039
+            [name] => Stacy
+            [email] => hi.stacy@gmail.com
+            [zip_code] => 
+            [address] => 
+            [national_id] => 
+        )
+
+    [remember] => true
+)
+
+[20-Jul-2019 03:57:01 UTC] $intUserID
+[20-Jul-2019 03:57:01 UTC] 1428
+[20-Jul-2019 03:57:01 UTC] $intOrderID
+[20-Jul-2019 03:57:01 UTC] 3874
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[20-Jul-2019 16:40:32 Asia/Taipei] $stdRenewalOrder->get_id()[1]
+[20-Jul-2019 16:40:32 Asia/Taipei] 3877
+[20-Jul-2019 16:40:32 Asia/Taipei] $arrTokens[1]
+[20-Jul-2019 16:40:32 Asia/Taipei] Array
+(
+)
+
+[20-Jul-2019 09:39:26 UTC] PHP Deprecated:  Non-static method cloudwp\TapPay\Admin::CancelAuthorized() should not be called statically in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-subscription.php on line 41
+[20-Jul-2019 18:48:39 Asia/Taipei] $stdResponse[3]
+[20-Jul-2019 18:48:39 Asia/Taipei] stdClass Object
+(
+    [status] => 10023
+    [msg] => Bank error
+    [rec_trade_id] => D20190720vcwkSc
+    [bank_result_code] => 41
+    [bank_result_msg] => Bank Error
+)
+
+[20-Jul-2019 18:48:39 Asia/Taipei] $arrTokensData[2]
+[20-Jul-2019 18:48:39 Asia/Taipei] Array
+(
+    [1] => Array
+        (
+            [id] => 15
+            [gateway_id] => cwtpfw
+            [token] => 5020baf699d672cb06062844b86de9c15ae0fee4f86f67cf46a66520b2e0a291:::2694e8d320ee15c6d0ca2989265cad95bf585ae828be9dd050a06ba9261d7ed5
+            [is_default] => 
+            [user_id] => 48
+            [type] => 
+            [last4] => 3950
+            [expiry_year] => 2023
+            [expiry_month] => 12
+            [card_type] => mastercard
+            [meta_data] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 57
+                                    [key] => last4
+                                    [value] => 3950
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 57
+                                    [key] => last4
+                                    [value] => 3950
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 58
+                                    [key] => expiry_year
+                                    [value] => 2023
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 58
+                                    [key] => expiry_year
+                                    [value] => 2023
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 59
+                                    [key] => expiry_month
+                                    [value] => 12
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 59
+                                    [key] => expiry_month
+                                    [value] => 12
+                                )
+
+                        )
+
+                    [3] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 60
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 60
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 1323
+            [gateway_id] => cwtpfw
+            [token] => 1e5b2ae3c5bcac7fa1f829ea568a99fdc7fb00717b4e449c95e4e91d8de110a5:::db16c6065f02de18198baf7169ebf7534045a9f5809e5724f75722d567a22210
+            [is_default] => 
+            [user_id] => 48
+            [type] => 
+            [last4] => 5682
+            [expiry_year] => 2024
+            [expiry_month] => 07
+            [card_type] => mastercard
+            [meta_data] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5289
+                                    [key] => last4
+                                    [value] => 5682
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5289
+                                    [key] => last4
+                                    [value] => 5682
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5290
+                                    [key] => expiry_year
+                                    [value] => 2024
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5290
+                                    [key] => expiry_year
+                                    [value] => 2024
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5291
+                                    [key] => expiry_month
+                                    [value] => 07
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5291
+                                    [key] => expiry_month
+                                    [value] => 07
+                                )
+
+                        )
+
+                    [3] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5292
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5292
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 1324
+            [gateway_id] => cwtpfw
+            [token] => 1e5b2ae3c5bcac7fa1f829ea568a99fdc7fb00717b4e449c95e4e91d8de110a5:::db16c6065f02de18198baf7169ebf7534045a9f5809e5724f75722d567a22210
+            [is_default] => 
+            [user_id] => 48
+            [type] => 
+            [last4] => 5682
+            [expiry_year] => 2024
+            [expiry_month] => 07
+            [card_type] => mastercard
+            [meta_data] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5293
+                                    [key] => last4
+                                    [value] => 5682
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5293
+                                    [key] => last4
+                                    [value] => 5682
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5294
+                                    [key] => expiry_year
+                                    [value] => 2024
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5294
+                                    [key] => expiry_year
+                                    [value] => 2024
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5295
+                                    [key] => expiry_month
+                                    [value] => 07
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5295
+                                    [key] => expiry_month
+                                    [value] => 07
+                                )
+
+                        )
+
+                    [3] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5296
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5296
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[20-Jul-2019 18:48:42 Asia/Taipei] $stdResponse[3]
+[20-Jul-2019 18:48:42 Asia/Taipei] stdClass Object
+(
+    [status] => 10023
+    [msg] => Bank error
+    [rec_trade_id] => D20190720aCfKZ6
+    [bank_result_code] => 41
+    [bank_result_msg] => Bank Error
+)
+
+[20-Jul-2019 18:48:42 Asia/Taipei] $arrTokensData[2]
+[20-Jul-2019 18:48:42 Asia/Taipei] Array
+(
+    [2] => Array
+        (
+            [id] => 1323
+            [gateway_id] => cwtpfw
+            [token] => 1e5b2ae3c5bcac7fa1f829ea568a99fdc7fb00717b4e449c95e4e91d8de110a5:::db16c6065f02de18198baf7169ebf7534045a9f5809e5724f75722d567a22210
+            [is_default] => 
+            [user_id] => 48
+            [type] => 
+            [last4] => 5682
+            [expiry_year] => 2024
+            [expiry_month] => 07
+            [card_type] => mastercard
+            [meta_data] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5289
+                                    [key] => last4
+                                    [value] => 5682
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5289
+                                    [key] => last4
+                                    [value] => 5682
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5290
+                                    [key] => expiry_year
+                                    [value] => 2024
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5290
+                                    [key] => expiry_year
+                                    [value] => 2024
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5291
+                                    [key] => expiry_month
+                                    [value] => 07
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5291
+                                    [key] => expiry_month
+                                    [value] => 07
+                                )
+
+                        )
+
+                    [3] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5292
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5292
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 1324
+            [gateway_id] => cwtpfw
+            [token] => 1e5b2ae3c5bcac7fa1f829ea568a99fdc7fb00717b4e449c95e4e91d8de110a5:::db16c6065f02de18198baf7169ebf7534045a9f5809e5724f75722d567a22210
+            [is_default] => 
+            [user_id] => 48
+            [type] => 
+            [last4] => 5682
+            [expiry_year] => 2024
+            [expiry_month] => 07
+            [card_type] => mastercard
+            [meta_data] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5293
+                                    [key] => last4
+                                    [value] => 5682
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5293
+                                    [key] => last4
+                                    [value] => 5682
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5294
+                                    [key] => expiry_year
+                                    [value] => 2024
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5294
+                                    [key] => expiry_year
+                                    [value] => 2024
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5295
+                                    [key] => expiry_month
+                                    [value] => 07
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5295
+                                    [key] => expiry_month
+                                    [value] => 07
+                                )
+
+                        )
+
+                    [3] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 5296
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 5296
+                                    [key] => card_type
+                                    [value] => mastercard
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[21-Jul-2019 20:02:28 Asia/Taipei] $stdRenewalOrder->get_id()[1]
+[21-Jul-2019 20:02:28 Asia/Taipei] 3887
+[21-Jul-2019 20:02:28 Asia/Taipei] $arrTokens[1]
+[21-Jul-2019 20:02:28 Asia/Taipei] Array
+(
+)
+
+[22-Jul-2019 23:14:50 Asia/Taipei] $stdRenewalOrder->get_id()[1]
+[22-Jul-2019 23:14:50 Asia/Taipei] 3893
+[22-Jul-2019 23:14:50 Asia/Taipei] $arrTokens[1]
+[22-Jul-2019 23:14:50 Asia/Taipei] Array
+(
+)
+
+[28-Jul-2019 03:58:13 UTC] Tappay debug by JanaLEE
+[28-Jul-2019 03:58:13 UTC] 4031
+[28-Jul-2019 03:58:13 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 718ee95e1b
+    [_wp_http_referer] => /checkout/order-pay/4031/?pay_for_order=true&key=wc_order_5d3d1d0da09b8
+)
+
+[28-Jul-2019 03:58:13 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(4031, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(4031, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(4031)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[28-Jul-2019 03:58:28 UTC] Tappay debug by JanaLEE
+[28-Jul-2019 03:58:28 UTC] 4031
+[28-Jul-2019 03:58:28 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 718ee95e1b
+    [_wp_http_referer] => /checkout/order-pay/4031/?pay_for_order=true&key=wc_order_5d3d1d0da09b8
+)
+
+[28-Jul-2019 03:58:28 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(4031, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(4031, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(4031)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[28-Jul-2019 03:59:40 UTC] Tappay debug by JanaLEE
+[28-Jul-2019 03:59:40 UTC] 4031
+[28-Jul-2019 03:59:40 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 718ee95e1b
+    [_wp_http_referer] => /checkout/order-pay/4031/?pay_for_order=true&key=wc_order_5d3d1d0da09b8
+)
+
+[28-Jul-2019 03:59:40 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(4031, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(4031, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(4031)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[02-Aug-2019 10:08:29 Asia/Taipei] $stdRenewalOrder->get_id()[1]
+[02-Aug-2019 10:08:29 Asia/Taipei] 4190
+[02-Aug-2019 10:08:29 Asia/Taipei] $arrTokens[1]
+[02-Aug-2019 10:08:29 Asia/Taipei] Array
+(
+)
+
+[09-Oct-2019 21:19:34 UTC] Tappay debug by JanaLEE
+[09-Oct-2019 21:19:34 UTC] 5628
+[09-Oct-2019 21:19:34 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => fa3c86eeec
+    [_wp_http_referer] => /checkout/order-pay/5628/?pay_for_order=true&key=wc_order_5d9e489bb0377
+)
+
+[09-Oct-2019 21:19:34 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(5628, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(5628, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(5628)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[09-Oct-2019 21:43:20 UTC] Tappay debug by JanaLEE
+[09-Oct-2019 21:43:20 UTC] 5628
+[09-Oct-2019 21:43:20 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => fa3c86eeec
+    [_wp_http_referer] => /checkout/order-pay/5628/?pay_for_order=true&key=wc_order_5d9e489bb0377
+)
+
+[09-Oct-2019 21:43:20 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(5628, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(5628, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(5628)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[28-Oct-2019 20:46:42 UTC] Tappay debug by JanaLEE
+[28-Oct-2019 20:46:42 UTC] 6056
+[28-Oct-2019 20:46:42 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => dde76725ee
+    [_wp_http_referer] => /checkout/order-pay/6056/?pay_for_order=true&key=wc_order_5db7526abd9d4
+)
+
+[28-Oct-2019 20:46:42 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(6056, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(6056, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(6056)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[28-Oct-2019 20:47:58 UTC] Tappay debug by JanaLEE
+[28-Oct-2019 20:47:58 UTC] 6056
+[28-Oct-2019 20:47:58 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => dde76725ee
+    [_wp_http_referer] => /checkout/order-pay/6056/?pay_for_order=true&key=wc_order_5db7526abd9d4
+)
+
+[28-Oct-2019 20:47:58 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(6056, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(6056, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(6056)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[28-Oct-2019 20:48:02 UTC] Tappay debug by JanaLEE
+[28-Oct-2019 20:48:02 UTC] 6056
+[28-Oct-2019 20:48:02 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => dde76725ee
+    [_wp_http_referer] => /checkout/order-pay/6056/?pay_for_order=true&key=wc_order_5db7526abd9d4
+)
+
+[28-Oct-2019 20:48:02 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(6056, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(6056, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(6056)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[28-Oct-2019 20:48:21 UTC] Tappay debug by JanaLEE
+[28-Oct-2019 20:48:21 UTC] 6056
+[28-Oct-2019 20:48:21 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => dde76725ee
+    [_wp_http_referer] => /checkout/order-pay/6056/?pay_for_order=true&key=wc_order_5db7526abd9d4
+)
+
+[28-Oct-2019 20:48:21 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(6056, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(6056, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(6056)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[05-Jan-2020 17:04:50 UTC] Tappay debug by JanaLEE
+[05-Jan-2020 17:04:50 UTC] 7766
+[05-Jan-2020 17:04:50 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => CVS
+    [woocommerce_pay] => 1
+    [_wpnonce] => 5466810b2d
+    [_wp_http_referer] => /checkout/order-pay/7766/?pay_for_order=true&key=wc_order_5e121713ad4b0
+)
+
+[05-Jan-2020 17:04:50 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(7766, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(7766, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(7766)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[07-Feb-2020 07:57:08 UTC] Tappay debug by JanaLEE
+[07-Feb-2020 07:57:08 UTC] 8446
+[07-Feb-2020 07:57:08 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => dd
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 2
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 1b9abfe19c
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[10-Feb-2020 07:34:55 UTC] Tappay debug by JanaLEE
+[10-Feb-2020 07:34:55 UTC] 8461
+[10-Feb-2020 07:34:55 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => dd
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => kkk
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 4aaac3d55b
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[10-Feb-2020 07:38:22 UTC] Tappay debug by JanaLEE
+[10-Feb-2020 07:38:22 UTC] 8462
+[10-Feb-2020 07:38:22 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => dd
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => shipping
+    [shipping_district] => 台北市松山區
+    [shipping_address_1] => 台北市松山區
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 4aaac3d55b
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[11-Feb-2020 08:33:49 UTC] Tappay debug by JanaLEE[2]
+[11-Feb-2020 08:33:49 UTC] 8474
+[11-Feb-2020 08:33:49 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => dd
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2020_02_13_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1
+    [_wpnonce] => 4db1c36745
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[11-Feb-2020 08:33:49 UTC] stdClass Object
+(
+    [status] => 4014
+    [msg] => Repeated refund
+)
+
+[11-Feb-2020 08:33:49 UTC] Tappay debug by JanaLEE
+[11-Feb-2020 08:33:49 UTC] 8474
+[11-Feb-2020 08:33:49 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => dd
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2020_02_13_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1
+    [_wpnonce] => 4db1c36745
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[13-Feb-2020 07:56:38 UTC] Tappay debug by JanaLEE
+[13-Feb-2020 07:56:38 UTC] 8486
+[13-Feb-2020 07:56:38 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => def8c7607f
+    [_wp_http_referer] => /checkout/order-pay/8486/?pay_for_order=true&key=wc_order_5e4500f03e40f
+)
+
+[13-Feb-2020 07:56:38 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(8486, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(8486, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(8486)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[14-Feb-2020 17:24:35 UTC] Tappay debug by JanaLEE
+[14-Feb-2020 17:24:35 UTC] 8661
+[14-Feb-2020 17:24:35 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => d51e67a9fc
+    [_wp_http_referer] => /checkout/order-pay/8661/?pay_for_order=true&key=wc_order_5e46d60a4db5e
+)
+
+[14-Feb-2020 17:24:35 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(8661)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[14-Feb-2020 17:24:47 UTC] Tappay debug by JanaLEE
+[14-Feb-2020 17:24:47 UTC] 8661
+[14-Feb-2020 17:24:47 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => d51e67a9fc
+    [_wp_http_referer] => /checkout/order-pay/8661/?pay_for_order=true&key=wc_order_5e46d60a4db5e
+)
+
+[14-Feb-2020 17:24:47 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(8661)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[14-Feb-2020 17:33:58 UTC] Tappay debug by JanaLEE
+[14-Feb-2020 17:33:58 UTC] 8661
+[14-Feb-2020 17:33:58 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 0fa0f29be5
+    [_wp_http_referer] => /checkout/order-pay/8661/?pay_for_order=true&key=wc_order_5e46d60a4db5e
+)
+
+[14-Feb-2020 17:33:58 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(8661)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[14-Feb-2020 17:34:08 UTC] Tappay debug by JanaLEE
+[14-Feb-2020 17:34:08 UTC] 8661
+[14-Feb-2020 17:34:08 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => d51e67a9fc
+    [_wp_http_referer] => /checkout/order-pay/8661/?pay_for_order=true&key=wc_order_5e46d60a4db5e
+)
+
+[14-Feb-2020 17:34:08 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(8661)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[14-Feb-2020 17:34:19 UTC] Tappay debug by JanaLEE
+[14-Feb-2020 17:34:19 UTC] 8661
+[14-Feb-2020 17:34:19 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 0fa0f29be5
+    [_wp_http_referer] => /checkout/order-pay/8661/?pay_for_order=true&key=wc_order_5e46d60a4db5e
+)
+
+[14-Feb-2020 17:34:19 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(8661)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[14-Feb-2020 17:43:15 UTC] Tappay debug by JanaLEE
+[14-Feb-2020 17:43:15 UTC] 8661
+[14-Feb-2020 17:43:15 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 0fa0f29be5
+    [_wp_http_referer] => /checkout/order-pay/8661/?pay_for_order=true&key=wc_order_5e46d60a4db5e
+)
+
+[14-Feb-2020 17:43:15 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(8661)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[14-Feb-2020 17:43:35 UTC] Tappay debug by JanaLEE
+[14-Feb-2020 17:43:35 UTC] 8661
+[14-Feb-2020 17:43:35 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 0fa0f29be5
+    [_wp_http_referer] => /checkout/order-pay/8661/?pay_for_order=true&key=wc_order_5e46d60a4db5e
+)
+
+[14-Feb-2020 17:43:35 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(8661, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(8661)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[01-Mar-2020 02:42:01 UTC] Tappay debug by JanaLEE
+[01-Mar-2020 02:42:01 UTC] 9054
+[01-Mar-2020 02:42:01 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => a18517adf2
+    [_wp_http_referer] => /checkout/order-pay/9054/?pay_for_order=true&key=wc_order_5e5b20ccc3585
+)
+
+[01-Mar-2020 02:42:01 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9054, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9054, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9054)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[19-Mar-2020 16:10:49 UTC] Tappay debug by JanaLEE
+[19-Mar-2020 16:10:49 UTC] 9520
+[19-Mar-2020 16:10:49 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_03_26_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 2
+    [_wpnonce] => 1eaa62f0fb
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[19-Mar-2020 16:13:18 UTC] Tappay debug by JanaLEE
+[19-Mar-2020 16:13:18 UTC] 9520
+[19-Mar-2020 16:13:18 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_03_26_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 2
+    [_wpnonce] => 1eaa62f0fb
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[19-Mar-2020 16:15:12 UTC] Tappay debug by JanaLEE
+[19-Mar-2020 16:15:12 UTC] 9520
+[19-Mar-2020 16:15:12 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_03_26_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 2
+    [_wpnonce] => 1eaa62f0fb
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[19-Mar-2020 16:16:51 UTC] Tappay debug by JanaLEE
+[19-Mar-2020 16:16:51 UTC] 9520
+[19-Mar-2020 16:16:51 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_03_26_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 2
+    [_wpnonce] => 1eaa62f0fb
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[19-Mar-2020 16:17:22 UTC] Tappay debug by JanaLEE
+[19-Mar-2020 16:17:22 UTC] 9520
+[19-Mar-2020 16:17:22 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_03_26_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 2
+    [_wpnonce] => 1eaa62f0fb
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[19-Mar-2020 16:17:45 UTC] Tappay debug by JanaLEE
+[19-Mar-2020 16:17:45 UTC] 9520
+[19-Mar-2020 16:17:45 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_03_26_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 2
+    [_wpnonce] => 1eaa62f0fb
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[24-Mar-2020 05:15:29 UTC] Tappay debug by JanaLEE
+[24-Mar-2020 05:15:29 UTC] 9668
+[24-Mar-2020 05:15:29 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => b2d262453b
+    [_wp_http_referer] => /checkout/order-pay/9668/?pay_for_order=true&key=wc_order_5e7995bd6a402
+)
+
+[24-Mar-2020 05:15:29 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9668, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9668, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9668)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Mar-2020 15:15:58 UTC] Tappay debug by JanaLEE
+[25-Mar-2020 15:15:58 UTC] 9678
+[25-Mar-2020 15:15:58 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => a8774ec29c
+    [_wp_http_referer] => /checkout/order-pay/9678/?pay_for_order=true&key=wc_order_5e7af8e8b9436
+)
+
+[25-Mar-2020 15:15:58 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9678)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Mar-2020 15:16:11 UTC] Tappay debug by JanaLEE
+[25-Mar-2020 15:16:11 UTC] 9678
+[25-Mar-2020 15:16:11 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => a8774ec29c
+    [_wp_http_referer] => /checkout/order-pay/9678/?pay_for_order=true&key=wc_order_5e7af8e8b9436
+)
+
+[25-Mar-2020 15:16:11 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9678)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Mar-2020 15:16:54 UTC] Tappay debug by JanaLEE
+[25-Mar-2020 15:16:54 UTC] 9678
+[25-Mar-2020 15:16:54 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => a8774ec29c
+    [_wp_http_referer] => /checkout/order-pay/9678/?pay_for_order=true&key=wc_order_5e7af8e8b9436
+)
+
+[25-Mar-2020 15:16:54 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9678)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Mar-2020 15:18:13 UTC] Tappay debug by JanaLEE
+[25-Mar-2020 15:18:13 UTC] 9678
+[25-Mar-2020 15:18:13 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => CVS
+    [woocommerce_pay] => 1
+    [_wpnonce] => a8774ec29c
+    [_wp_http_referer] => /checkout/order-pay/9678/?pay_for_order=true&key=wc_order_5e7af8e8b9436
+)
+
+[25-Mar-2020 15:18:13 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9678)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Mar-2020 15:18:48 UTC] Tappay debug by JanaLEE
+[25-Mar-2020 15:18:48 UTC] 9678
+[25-Mar-2020 15:18:48 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => CVS
+    [woocommerce_pay] => 1
+    [_wpnonce] => a8774ec29c
+    [_wp_http_referer] => /checkout/order-pay/9678/?pay_for_order=true&key=wc_order_5e7af8e8b9436
+)
+
+[25-Mar-2020 15:18:48 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9678, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9678)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[26-Mar-2020 09:50:30 UTC] Tappay debug by JanaLEE
+[26-Mar-2020 09:50:30 UTC] 9693
+[26-Mar-2020 09:50:30 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 7798920e39
+    [_wp_http_referer] => /checkout/order-pay/9693/?pay_for_order=true&key=wc_order_5e7c69f190662
+)
+
+[26-Mar-2020 09:50:30 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9693, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9693, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9693)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[26-Mar-2020 09:50:41 UTC] Tappay debug by JanaLEE
+[26-Mar-2020 09:50:41 UTC] 9693
+[26-Mar-2020 09:50:41 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 7798920e39
+    [_wp_http_referer] => /checkout/order-pay/9693/?pay_for_order=true&key=wc_order_5e7c69f190662
+)
+
+[26-Mar-2020 09:50:41 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(9693, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(9693, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(9693)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/wp-i in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[16-Apr-2020 10:07:59 UTC] Tappay debug by JanaLEE
+[16-Apr-2020 10:07:59 UTC] 10297
+[16-Apr-2020 10:07:59 UTC] Array
+(
+    [billing_first_name] => 風京
+    [billing_email] => bettys22004@yahoo.com.tw
+    [billing_phone] => 0988151286
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 簡淑華
+    [shipping_first_phone] => 0932315158
+    [delivery_option] => shipping
+    [shipping_district] => 台北市松山區
+    [shipping_address_1] => 八德路三段225號
+    [shipping_second_name] => 一樓警衛
+    [shipping_second_phone] => 無
+    [florist_card_content] => 母親節快樂呦
+By 風京
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 132
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => eb000a1f27
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[25-Apr-2020 18:36:08 UTC] Tappay debug by JanaLEE
+[25-Apr-2020 18:36:08 UTC] 10687
+[25-Apr-2020 18:36:08 UTC] Array
+(
+    [billing_first_name] => Even Chen
+    [billing_email] => hihimayi@yahoo.com.tw
+    [billing_phone] => 0932839372
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 陳妙伊
+    [shipping_first_phone] => 0932839372
+    [delivery_option] => shipping
+    [shipping_district] => 新北市新店區
+    [shipping_address_1] => 新北市新店區北新路三段207-5號14樓
+    [shipping_second_name] => 陳妙伊
+    [shipping_second_phone] => 0932839372
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1644
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => b93d2d13d6
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[25-Apr-2020 18:38:04 UTC] Tappay debug by JanaLEE
+[25-Apr-2020 18:38:04 UTC] 10687
+[25-Apr-2020 18:38:04 UTC] Array
+(
+    [billing_first_name] => Even Chen
+    [billing_email] => hihimayi@yahoo.com.tw
+    [billing_phone] => 0932839372
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 陳妙伊
+    [shipping_first_phone] => 0932839372
+    [delivery_option] => shipping
+    [shipping_district] => 新北市新店區
+    [shipping_address_1] => 北新路三段207-5號14樓
+    [shipping_second_name] => 總機代收
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1644
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => b93d2d13d6
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[25-Apr-2020 18:38:25 UTC] Tappay debug by JanaLEE
+[25-Apr-2020 18:38:25 UTC] 10687
+[25-Apr-2020 18:38:25 UTC] Array
+(
+    [billing_first_name] => Even Chen
+    [billing_email] => hihimayi@yahoo.com.tw
+    [billing_phone] => 0932839372
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 陳妙伊
+    [shipping_first_phone] => 0932839372
+    [delivery_option] => shipping
+    [shipping_district] => 新北市新店區
+    [shipping_address_1] => 北新路三段207-5號14樓
+    [shipping_second_name] => 總機代收
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1644
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => b93d2d13d6
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[25-Apr-2020 18:38:48 UTC] Tappay debug by JanaLEE
+[25-Apr-2020 18:38:48 UTC] 10687
+[25-Apr-2020 18:38:48 UTC] Array
+(
+    [billing_first_name] => Even Chen
+    [billing_email] => hihimayi@yahoo.com.tw
+    [billing_phone] => 0932839372
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 陳妙伊
+    [shipping_first_phone] => 0932839372
+    [delivery_option] => shipping
+    [shipping_district] => 新北市新店區
+    [shipping_address_1] => 北新路三段207-5號14樓
+    [shipping_second_name] => 總機代收
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1644
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => b93d2d13d6
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[27-Apr-2020 17:10:24 UTC] Tappay debug by JanaLEE
+[27-Apr-2020 17:10:24 UTC] 10697
+[27-Apr-2020 17:10:24 UTC] Array
+(
+    [billing_first_name] => 陳佑珍
+    [billing_email] => yu123c@hotmail.com
+    [billing_phone] => 0956531313
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 陳佑珍
+    [shipping_first_phone] => 0956531313
+    [delivery_option] => shipping
+    [shipping_district] => 台北市內湖區
+    [shipping_address_1] => 瑞光路581號7樓
+    [shipping_second_name] => 手機聯絡仁寶大樓1樓門口取貨
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1523
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 34019d3629
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[03-May-2020 09:00:16 UTC] Tappay debug by JanaLEE
+[03-May-2020 09:00:16 UTC] 10890
+[03-May-2020 09:00:16 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 3ae5f57c36
+    [_wp_http_referer] => /checkout/order-pay/10890/?pay_for_order=true&key=wc_order_5ead826e410ed
+)
+
+[03-May-2020 09:00:16 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(10890, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(10890, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(10890)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[03-May-2020 09:01:30 UTC] Tappay debug by JanaLEE
+[03-May-2020 09:01:30 UTC] 10890
+[03-May-2020 09:01:30 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 3ae5f57c36
+    [_wp_http_referer] => /checkout/order-pay/10890/?pay_for_order=true&key=wc_order_5ead826e410ed
+)
+
+[03-May-2020 09:01:30 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(10890, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(10890, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(10890)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[07-May-2020 17:02:57 UTC] Tappay debug by JanaLEE
+[07-May-2020 17:02:57 UTC] 10929
+[07-May-2020 17:02:57 UTC] Array
+(
+    [billing_first_name] => 容菱
+    [billing_email] => mekaren123614@gmail.com
+    [billing_phone] => 0910207312
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 張容菱
+    [shipping_first_phone] => 0910207312
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 您好:
+抱歉錯過週四23:59前下訂單，能否下週一能自取然後付現金?謝謝!造成您們作業上不便不好意思。
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_05_14_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1658
+    [_wpnonce] => 24b195a625
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-May-2020 17:03:34 UTC] Tappay debug by JanaLEE
+[07-May-2020 17:03:34 UTC] 10929
+[07-May-2020 17:03:34 UTC] Array
+(
+    [billing_first_name] => 容菱
+    [billing_email] => mekaren123614@gmail.com
+    [billing_phone] => 0910207312
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 張容菱
+    [shipping_first_phone] => 0910207312
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 您好:
+抱歉錯過週四23:59前下訂單，能否下週一能自取然後付現金?謝謝!造成您們作業上不便不好意思。
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_05_14_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1658
+    [_wpnonce] => 24b195a625
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-May-2020 17:03:53 UTC] Tappay debug by JanaLEE
+[07-May-2020 17:03:53 UTC] 10929
+[07-May-2020 17:03:53 UTC] Array
+(
+    [billing_first_name] => 容菱
+    [billing_email] => mekaren123614@gmail.com
+    [billing_phone] => 0910207312
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 張容菱
+    [shipping_first_phone] => 0910207312
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 您好:
+抱歉錯過週四23:59前下訂單，能否下週一能自取然後付現金?謝謝!造成您們作業上不便不好意思。
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+            [2020_05_14_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1658
+    [_wpnonce] => 24b195a625
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[13-May-2020 09:50:41 UTC] Tappay debug by JanaLEE
+[13-May-2020 09:50:41 UTC] 11146
+[13-May-2020 09:50:41 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => CVS
+    [woocommerce_pay] => 1
+    [_wpnonce] => 576df8dbd1
+    [_wp_http_referer] => /checkout/order-pay/11146/?pay_for_order=true&key=wc_order_5ebbc29c0b81a
+)
+
+[13-May-2020 09:50:41 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(11146, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(11146, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(11146)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[13-May-2020 09:50:49 UTC] Tappay debug by JanaLEE
+[13-May-2020 09:50:49 UTC] 11146
+[13-May-2020 09:50:49 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => CVS
+    [woocommerce_pay] => 1
+    [_wpnonce] => 576df8dbd1
+    [_wp_http_referer] => /checkout/order-pay/11146/?pay_for_order=true&key=wc_order_5ebbc29c0b81a
+)
+
+[13-May-2020 09:50:49 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(11146, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(11146, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(11146)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[01-Jun-2020 05:55:24 UTC] error
+[01-Jun-2020 05:55:24 UTC] cURL error 60: SSL certificate problem: certificate has expired
+[01-Jun-2020 05:55:46 UTC] error
+[01-Jun-2020 05:55:46 UTC] cURL error 60: SSL certificate problem: certificate has expired
+[07-Jun-2020 11:55:08 UTC] Tappay debug by JanaLEE
+[07-Jun-2020 11:55:08 UTC] 12038
+[07-Jun-2020 11:55:08 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 288eb05b45
+    [_wp_http_referer] => /checkout/order-pay/12038/?pay_for_order=true&key=wc_order_5edcd4e72a1b6
+)
+
+[07-Jun-2020 11:55:08 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(12038, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(12038, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(12038)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[07-Jun-2020 11:56:25 UTC] Tappay debug by JanaLEE
+[07-Jun-2020 11:56:25 UTC] 12038
+[07-Jun-2020 11:56:25 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => CVS
+    [woocommerce_pay] => 1
+    [_wpnonce] => 288eb05b45
+    [_wp_http_referer] => /checkout/order-pay/12038/?pay_for_order=true&key=wc_order_5edcd4e72a1b6
+)
+
+[07-Jun-2020 11:56:25 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(12038, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(12038, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(12038)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[07-Jun-2020 11:58:57 UTC] Tappay debug by JanaLEE
+[07-Jun-2020 11:58:57 UTC] 12038
+[07-Jun-2020 11:58:57 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => CVS
+    [woocommerce_pay] => 1
+    [_wpnonce] => 05372ba4aa
+    [_wp_http_referer] => /checkout/order-pay/12038/?pay_for_order=true&key=wc_order_5edcd4e72a1b6
+)
+
+[07-Jun-2020 11:58:57 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(12038, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(12038, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(12038)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[23-Jun-2020 01:07:05 UTC] Tappay debug by JanaLEE
+[23-Jun-2020 01:07:05 UTC] 12482
+[23-Jun-2020 01:07:05 UTC] Array
+(
+    [billing_first_name] => Eva
+    [billing_email] => evakuangweiwang@gmail.com
+    [billing_phone] => 0935502469
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Eva Wang汪小姐
+    [shipping_first_phone] => 0935502469
+    [delivery_option] => shipping
+    [shipping_district] => 新北市永和區
+    [shipping_address_1] => 新北市永和區保福路二段113號7F之二
+    [shipping_second_name] => 警衛
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1537
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 87d295d56f
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[23-Jun-2020 01:07:32 UTC] Tappay debug by JanaLEE
+[23-Jun-2020 01:07:32 UTC] 12482
+[23-Jun-2020 01:07:32 UTC] Array
+(
+    [billing_first_name] => Eva
+    [billing_email] => evakuangweiwang@gmail.com
+    [billing_phone] => 0935502469
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Eva Wang汪小姐
+    [shipping_first_phone] => 0935502469
+    [delivery_option] => shipping
+    [shipping_district] => 新北市永和區
+    [shipping_address_1] => 新北市永和區保福路二段113號7F之二
+    [shipping_second_name] => 警衛
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1537
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 87d295d56f
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[23-Jun-2020 01:08:19 UTC] Tappay debug by JanaLEE
+[23-Jun-2020 01:08:19 UTC] 12482
+[23-Jun-2020 01:08:19 UTC] Array
+(
+    [billing_first_name] => Eva
+    [billing_email] => evakuangweiwang@gmail.com
+    [billing_phone] => 0935502469
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Eva Wang汪小姐
+    [shipping_first_phone] => 0935502469
+    [delivery_option] => shipping
+    [shipping_district] => 新北市永和區
+    [shipping_address_1] => 新北市永和區保福路二段113號7F之二
+    [shipping_second_name] => 警衛
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1537
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 87d295d56f
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[23-Jun-2020 01:09:41 UTC] Tappay debug by JanaLEE
+[23-Jun-2020 01:09:41 UTC] 12483
+[23-Jun-2020 01:09:41 UTC] Array
+(
+    [billing_first_name] => Eva
+    [billing_email] => evakuangweiwang@gmail.com
+    [billing_phone] => 0935502469
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Eva Wang汪小姐
+    [shipping_first_phone] => 0935502469
+    [delivery_option] => shipping
+    [shipping_district] => 新北市永和區
+    [shipping_address_1] => 新北市永和區保福路二段113號7樓之二
+    [shipping_second_name] => 警衛
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1537
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 87d295d56f
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[23-Jun-2020 01:10:19 UTC] Tappay debug by JanaLEE
+[23-Jun-2020 01:10:19 UTC] 12483
+[23-Jun-2020 01:10:19 UTC] Array
+(
+    [billing_first_name] => Eva
+    [billing_email] => evakuangweiwang@gmail.com
+    [billing_phone] => 0935502469
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Eva Wang汪小姐
+    [shipping_first_phone] => 0935502469
+    [delivery_option] => shipping
+    [shipping_district] => 新北市永和區
+    [shipping_address_1] => 新北市永和區保福路二段113號7樓之二
+    [shipping_second_name] => 警衛
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1537
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 87d295d56f
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-Jul-2020 02:08:31 UTC] Tappay debug by JanaLEE
+[07-Jul-2020 02:08:31 UTC] 12939
+[07-Jul-2020 02:08:31 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 69eefaddd9
+    [_wp_http_referer] => /checkout/order-pay/12939/?pay_for_order=true&key=wc_order_5f03d8a9674cf
+)
+
+[07-Jul-2020 02:08:31 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(12939, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(12939, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(12939)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[07-Jul-2020 02:08:35 UTC] Tappay debug by JanaLEE
+[07-Jul-2020 02:08:35 UTC] 12939
+[07-Jul-2020 02:08:35 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 69eefaddd9
+    [_wp_http_referer] => /checkout/order-pay/12939/?pay_for_order=true&key=wc_order_5f03d8a9674cf
+)
+
+[07-Jul-2020 02:08:35 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(12939, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(12939, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(12939)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[07-Jul-2020 02:20:14 UTC] Tappay debug by JanaLEE
+[07-Jul-2020 02:20:14 UTC] 12939
+[07-Jul-2020 02:20:14 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 69eefaddd9
+    [_wp_http_referer] => /checkout/order-pay/12939/?pay_for_order=true&key=wc_order_5f03d8a9674cf
+)
+
+[07-Jul-2020 02:20:14 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(12939, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(12939, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(12939)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[11-Jul-2020 13:33:12 UTC] Tappay debug by JanaLEE
+[11-Jul-2020 13:33:12 UTC] 13148
+[11-Jul-2020 13:33:12 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 78f0498616
+    [_wp_http_referer] => /checkout/order-pay/13148/?pay_for_order=true&key=wc_order_5f09bedd9944d
+)
+
+[11-Jul-2020 13:33:12 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(13148, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(13148, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(13148)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[22-Jul-2020 06:25:01 UTC] Tappay debug by JanaLEE
+[22-Jul-2020 06:25:01 UTC] 13386
+[22-Jul-2020 06:25:01 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => b5d3cb08b2
+    [_wp_http_referer] => /checkout/order-pay/13386/?pay_for_order=true&key=wc_order_5f17d7ec4ae69
+)
+
+[22-Jul-2020 06:25:01 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(13386, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(13386, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(13386)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[22-Jul-2020 06:25:26 UTC] Tappay debug by JanaLEE
+[22-Jul-2020 06:25:26 UTC] 13386
+[22-Jul-2020 06:25:26 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => b5d3cb08b2
+    [_wp_http_referer] => /checkout/order-pay/13386/?pay_for_order=true&key=wc_order_5f17d7ec4ae69
+)
+
+[22-Jul-2020 06:25:26 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(13386, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(13386, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(13386)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[22-Jul-2020 06:25:31 UTC] Tappay debug by JanaLEE
+[22-Jul-2020 06:25:31 UTC] 13386
+[22-Jul-2020 06:25:31 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => b5d3cb08b2
+    [_wp_http_referer] => /checkout/order-pay/13386/?pay_for_order=true&key=wc_order_5f17d7ec4ae69
+)
+
+[22-Jul-2020 06:25:31 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(13386, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(13386, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(13386)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[31-Jul-2020 22:00:34 UTC] Tappay debug by JanaLEE
+[31-Jul-2020 22:00:34 UTC] 13843
+[31-Jul-2020 22:00:34 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 12525b5335
+    [_wp_http_referer] => /checkout/order-pay/13843/?pay_for_order=true&key=wc_order_5f24945a8dfa1
+)
+
+[31-Jul-2020 22:00:34 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(13843, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(13843, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(13843)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[08-Sep-2020 05:06:04 UTC] Tappay debug by JanaLEE
+[08-Sep-2020 05:06:04 UTC] 14999
+[08-Sep-2020 05:06:04 UTC] Array
+(
+    [billing_first_name] => Aya
+    [billing_email] => aya09291981@gmail.com
+    [billing_phone] => 0937570606
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 黃鈴雅
+    [shipping_first_phone] => 0937570606
+    [delivery_option] => shipping
+    [shipping_district] => 台北市信義區
+    [shipping_address_1] => 松德路101號5樓
+    [shipping_second_name] => 可放警衛室
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 希望盡量禮拜二送
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1802
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => b4743ae16f
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[08-Sep-2020 05:07:19 UTC] Tappay debug by JanaLEE
+[08-Sep-2020 05:07:19 UTC] 14999
+[08-Sep-2020 05:07:19 UTC] Array
+(
+    [billing_first_name] => Aya
+    [billing_email] => aya09291981@gmail.com
+    [billing_phone] => 0937570606
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 黃鈴雅
+    [shipping_first_phone] => 0937570606
+    [delivery_option] => shipping
+    [shipping_district] => 台北市信義區
+    [shipping_address_1] => 松德路101號5樓
+    [shipping_second_name] => 可放警衛室
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 希望盡量禮拜二送
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1802
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => b4743ae16f
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[09-Sep-2020 02:04:17 UTC] Tappay debug by JanaLEE
+[09-Sep-2020 02:04:17 UTC] 15011
+[09-Sep-2020 02:04:17 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => a595019f41
+    [_wp_http_referer] => /checkout/order-pay/15011/?pay_for_order=true&key=wc_order_5f5837adae918
+)
+
+[09-Sep-2020 02:04:17 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(15011, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(15011, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(15011)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[19-Sep-2020 09:13:39 UTC] Tappay debug by JanaLEE
+[19-Sep-2020 09:13:39 UTC] 15440
+[19-Sep-2020 09:13:39 UTC] Array
+(
+    [billing_first_name] => 劉承翰
+    [billing_email] => edwin.liu1202@gmail.com
+    [billing_phone] => 0920022317
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 劉承翰
+    [shipping_first_phone] => 0920022317
+    [delivery_option] => shipping
+    [shipping_district] => 台北市內湖區
+    [shipping_address_1] => 台北市內湖區內湖路一段91巷15號
+    [shipping_second_name] => 一樓警衛
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1819
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => cedde041bd
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[01-Oct-2020 15:52:02 UTC] Tappay debug by JanaLEE
+[01-Oct-2020 15:52:02 UTC] 15691
+[01-Oct-2020 15:52:02 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 3a3e4750fa
+    [_wp_http_referer] => /checkout/order-pay/15691/?pay_for_order=true&key=wc_order_5f75fa06d6730
+)
+
+[01-Oct-2020 15:52:02 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(15691, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(15691, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(15691)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[01-Oct-2020 15:53:17 UTC] Tappay debug by JanaLEE
+[01-Oct-2020 15:53:17 UTC] 15691
+[01-Oct-2020 15:53:17 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 3a3e4750fa
+    [_wp_http_referer] => /checkout/order-pay/15691/?pay_for_order=true&key=wc_order_5f75fa06d6730
+)
+
+[01-Oct-2020 15:53:17 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(15691, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(15691, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(15691)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[01-Oct-2020 15:53:33 UTC] Tappay debug by JanaLEE
+[01-Oct-2020 15:53:33 UTC] 15691
+[01-Oct-2020 15:53:33 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 3a3e4750fa
+    [_wp_http_referer] => /checkout/order-pay/15691/?pay_for_order=true&key=wc_order_5f75fa06d6730
+)
+
+[01-Oct-2020 15:53:33 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(15691, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(15691, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(15691)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[01-Oct-2020 15:54:49 UTC] Tappay debug by JanaLEE
+[01-Oct-2020 15:54:49 UTC] 15691
+[01-Oct-2020 15:54:49 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 3a3e4750fa
+    [_wp_http_referer] => /checkout/order-pay/15691/?pay_for_order=true&key=wc_order_5f75fa06d6730
+)
+
+[01-Oct-2020 15:54:49 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(15691, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(15691, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(15691)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Oct-2020 18:55:58 Asia/Taipei] Tappay debug by JanaLEE
+[25-Oct-2020 18:55:58 Asia/Taipei] 16579
+[25-Oct-2020 18:55:58 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 32f469d840
+    [_wp_http_referer] => /checkout/order-pay/16579/?pay_for_order=true&key=wc_order_5f9558c5b0d1a
+)
+
+[25-Oct-2020 18:55:58 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(16579, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(16579, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(16579)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Oct-2020 18:56:17 Asia/Taipei] Tappay debug by JanaLEE
+[25-Oct-2020 18:56:17 Asia/Taipei] 16579
+[25-Oct-2020 18:56:17 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 32f469d840
+    [_wp_http_referer] => /checkout/order-pay/16579/?pay_for_order=true&key=wc_order_5f9558c5b0d1a
+)
+
+[25-Oct-2020 18:56:17 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(16579, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(16579, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(16579)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Oct-2020 18:56:23 Asia/Taipei] Tappay debug by JanaLEE
+[25-Oct-2020 18:56:23 Asia/Taipei] 16579
+[25-Oct-2020 18:56:23 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 32f469d840
+    [_wp_http_referer] => /checkout/order-pay/16579/?pay_for_order=true&key=wc_order_5f9558c5b0d1a
+)
+
+[25-Oct-2020 18:56:23 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(16579, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(16579, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(16579)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[25-Oct-2020 19:16:08 Asia/Taipei] Tappay debug by JanaLEE
+[25-Oct-2020 19:16:08 Asia/Taipei] 16579
+[25-Oct-2020 19:16:08 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 32f469d840
+    [_wp_http_referer] => /checkout/order-pay/16579/?pay_for_order=true&key=wc_order_5f9558c5b0d1a
+)
+
+[25-Oct-2020 19:16:08 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(16579, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(16579, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(16579)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[30-Dec-2020 11:31:36 Asia/Taipei] Tappay debug by JanaLEE
+[30-Dec-2020 11:31:36 Asia/Taipei] 18697
+[30-Dec-2020 11:31:36 Asia/Taipei] Array
+(
+    [billing_first_name] => 游正芳
+    [billing_email] => yaiching@gmail.com
+    [billing_phone] => 0931066955
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 游正芳
+    [shipping_first_phone] => 0931066955
+    [delivery_option] => shipping
+    [shipping_district] => 台北市松山區
+    [shipping_address_1] => 台北市松山區復興北路179號12樓之4
+    [shipping_second_name] => 隔壁12樓之5 / 劉小姐
+    [shipping_second_phone] => 02-27181248
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 悅慶資訊有限公司
+    [company_id_number] => 16751034
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1406
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 02ca8f5243
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[01-Jan-2021 17:09:48 Asia/Taipei] Tappay debug by JanaLEE
+[01-Jan-2021 17:09:48 Asia/Taipei] 18897
+[01-Jan-2021 17:09:48 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => ea42094e2a
+    [_wp_http_referer] => /checkout/order-pay/18897/?pay_for_order=true&key=wc_order_5feee65ce6155
+)
+
+[01-Jan-2021 17:09:48 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(18897, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(18897, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(18897)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[01-Jan-2021 17:10:26 Asia/Taipei] Tappay debug by JanaLEE
+[01-Jan-2021 17:10:26 Asia/Taipei] 18897
+[01-Jan-2021 17:10:26 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => ea42094e2a
+    [_wp_http_referer] => /checkout/order-pay/18897/?pay_for_order=true&key=wc_order_5feee65ce6155
+)
+
+[01-Jan-2021 17:10:26 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(18897, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(18897, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(18897)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[09-Jan-2021 18:53:55 Asia/Taipei] Tappay debug by JanaLEE[2]
+[09-Jan-2021 18:53:55 Asia/Taipei] 19148
+[09-Jan-2021 18:53:55 Asia/Taipei] Array
+(
+    [billing_first_name] => 袖綾
+    [billing_email] => apple7097@hotmail.com
+    [billing_phone] => 0921812966
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 江袖綾
+    [shipping_first_phone] => 0921812966
+    [delivery_option] => shipping
+    [shipping_district] => 台北市中山區
+    [shipping_address_1] => 台北市中山區龍江路377巷 18之一號1樓
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 人工智慧室內裝修有限公司
+    [company_id_number] => 27341298
+    [order_comments] => （台北市五常街16號、五常國小大門正對面）
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_01_14_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 70
+    [_wpnonce] => d45cb29209
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[09-Jan-2021 18:53:55 Asia/Taipei] stdClass Object
+(
+    [msg] => Transaction couldn’t be refunded due to current transaction status is not allowed
+    [status] => 10054
+)
+
+[09-Jan-2021 18:53:56 Asia/Taipei] Tappay debug by JanaLEE
+[09-Jan-2021 18:53:56 Asia/Taipei] 19148
+[09-Jan-2021 18:53:56 Asia/Taipei] Array
+(
+    [billing_first_name] => 袖綾
+    [billing_email] => apple7097@hotmail.com
+    [billing_phone] => 0921812966
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 江袖綾
+    [shipping_first_phone] => 0921812966
+    [delivery_option] => shipping
+    [shipping_district] => 台北市中山區
+    [shipping_address_1] => 台北市中山區龍江路377巷 18之一號1樓
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 人工智慧室內裝修有限公司
+    [company_id_number] => 27341298
+    [order_comments] => （台北市五常街16號、五常國小大門正對面）
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_01_14_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 70
+    [_wpnonce] => d45cb29209
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[11-Jan-2021 17:14:26 Asia/Taipei] Tappay debug by JanaLEE
+[11-Jan-2021 17:14:26 Asia/Taipei] 19159
+[11-Jan-2021 17:14:26 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 2aa6489f22
+    [_wp_http_referer] => /checkout/order-pay/19159/?pay_for_order=true&key=wc_order_5ffc1643d903a
+)
+
+[11-Jan-2021 17:14:26 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(19159, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(19159, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(19159)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[11-Jan-2021 17:16:23 Asia/Taipei] Tappay debug by JanaLEE
+[11-Jan-2021 17:16:23 Asia/Taipei] 19159
+[11-Jan-2021 17:16:23 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 2aa6489f22
+    [_wp_http_referer] => /checkout/order-pay/19159/?pay_for_order=true&key=wc_order_5ffc1643d903a
+)
+
+[11-Jan-2021 17:16:23 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(19159, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(19159, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(19159)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[18-Jan-2021 11:14:32 Asia/Taipei] Tappay debug by JanaLEE[2]
+[18-Jan-2021 11:14:32 Asia/Taipei] 19389
+[18-Jan-2021 11:14:32 Asia/Taipei] Array
+(
+    [billing_first_name] => 楊惠鈞
+    [billing_email] => amanda.hc.yang@gmail.com
+    [billing_phone] => 0972798333
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 楊惠鈞
+    [shipping_first_phone] => 0972798333
+    [delivery_option] => shipping
+    [shipping_district] => 台北市信義區
+    [shipping_address_1] => 台北市信義區
+    [shipping_second_name] => 總機
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_01_21_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1900
+    [_wpnonce] => 3640e3238b
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[18-Jan-2021 11:14:32 Asia/Taipei] stdClass Object
+(
+    [msg] => Transaction couldn’t be refunded due to current transaction status is not allowed
+    [status] => 10054
+)
+
+[18-Jan-2021 11:14:32 Asia/Taipei] Tappay debug by JanaLEE
+[18-Jan-2021 11:14:32 Asia/Taipei] 19389
+[18-Jan-2021 11:14:32 Asia/Taipei] Array
+(
+    [billing_first_name] => 楊惠鈞
+    [billing_email] => amanda.hc.yang@gmail.com
+    [billing_phone] => 0972798333
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 楊惠鈞
+    [shipping_first_phone] => 0972798333
+    [delivery_option] => shipping
+    [shipping_district] => 台北市信義區
+    [shipping_address_1] => 台北市信義區
+    [shipping_second_name] => 總機
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_01_21_weekly_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1900
+    [_wpnonce] => 3640e3238b
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[26-Jan-2021 14:22:17 Asia/Taipei] Tappay debug by JanaLEE
+[26-Jan-2021 14:22:17 Asia/Taipei] 19634
+[26-Jan-2021 14:22:17 Asia/Taipei] Array
+(
+    [billing_first_name] => Aya
+    [billing_email] => aya09291981@gmail.com
+    [billing_phone] => 0937570606
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 黃鈴雅
+    [shipping_first_phone] => 0937570606
+    [delivery_option] => shipping
+    [shipping_district] => 台北市信義區
+    [shipping_address_1] => 松德路101號5樓
+    [shipping_second_name] => 可放警衛室
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 2/8那周要返鄉投票希望該周暫停
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1802
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 1c8dab2a18
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[26-Jan-2021 14:22:47 Asia/Taipei] Tappay debug by JanaLEE
+[26-Jan-2021 14:22:47 Asia/Taipei] 19634
+[26-Jan-2021 14:22:47 Asia/Taipei] Array
+(
+    [billing_first_name] => Aya
+    [billing_email] => aya09291981@gmail.com
+    [billing_phone] => 0937570606
+    [sum_order_price] => 
+    [ship_to_different_address] => 1
+    [shipping_first_name] => 黃鈴雅
+    [shipping_first_phone] => 0937570606
+    [delivery_option] => shipping
+    [shipping_district] => 台北市信義區
+    [shipping_address_1] => 松德路101號5樓
+    [shipping_second_name] => 可放警衛室
+    [shipping_second_phone] => 無
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 2/8那周要返鄉投票希望該周暫停
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 1802
+    [ecpay_choose_payment] => ATM
+    [_wpnonce] => 1c8dab2a18
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[24-Feb-2021 23:31:15 Asia/Taipei] Tappay debug by JanaLEE
+[24-Feb-2021 23:31:15 Asia/Taipei] 20735
+[24-Feb-2021 23:31:15 Asia/Taipei] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 294a1aeec5
+    [_wp_http_referer] => /checkout/order-pay/20735/?pay_for_order=true&key=wc_order_603670c195401
+)
+
+[24-Feb-2021 23:31:15 Asia/Taipei] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(20735, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(20735, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(20735)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[16-Mar-2021 06:28:43 UTC] Tappay debug by JanaLEE
+[16-Mar-2021 06:28:43 UTC] 21400
+[16-Mar-2021 06:28:43 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 14538b3830
+    [_wp_http_referer] => /checkout/order-pay/21400/?pay_for_order=true&key=wc_order_60504fd1c0455
+)
+
+[16-Mar-2021 06:28:43 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(21400, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(21400, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(21400)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[29-Mar-2021 21:22:46 UTC] Tappay debug by JanaLEE
+[29-Mar-2021 21:22:46 UTC] 22045
+[29-Mar-2021 21:22:46 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 7f2ef6c415
+    [_wp_http_referer] => /checkout/order-pay/22045/?pay_for_order=true&key=wc_order_606244a39b21c
+)
+
+[29-Mar-2021 21:22:46 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22045, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22045, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22045)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[29-Mar-2021 21:23:12 UTC] Tappay debug by JanaLEE
+[29-Mar-2021 21:23:12 UTC] 22045
+[29-Mar-2021 21:23:12 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => 7f2ef6c415
+    [_wp_http_referer] => /checkout/order-pay/22045/?pay_for_order=true&key=wc_order_606244a39b21c
+)
+
+[29-Mar-2021 21:23:12 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22045, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22045, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22045)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[07-Apr-2021 09:04:12 UTC] Tappay debug by JanaLEE[2]
+[07-Apr-2021 09:04:12 UTC] 22440
+[07-Apr-2021 09:04:12 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_04_08_every_2nd_week_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 191
+    [_wpnonce] => 2d4b0a959e
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-Apr-2021 09:04:12 UTC] stdClass Object
+(
+    [msg] => Transaction couldn’t be refunded due to current transaction status is not allowed
+    [status] => 10054
+)
+
+[07-Apr-2021 09:04:12 UTC] Tappay debug by JanaLEE
+[07-Apr-2021 09:04:12 UTC] 22440
+[07-Apr-2021 09:04:12 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_04_08_every_2nd_week_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 191
+    [_wpnonce] => 2d4b0a959e
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-Apr-2021 10:23:14 UTC] Tappay debug by JanaLEE[2]
+[07-Apr-2021 10:23:14 UTC] 22614
+[07-Apr-2021 10:23:14 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_04_08_every_2nd_week_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 191
+    [_wpnonce] => 2d4b0a959e
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-Apr-2021 10:23:14 UTC] stdClass Object
+(
+    [msg] => Transaction couldn’t be refunded due to current transaction status is not allowed
+    [status] => 10054
+)
+
+[07-Apr-2021 10:23:14 UTC] Tappay debug by JanaLEE
+[07-Apr-2021 10:23:14 UTC] 22614
+[07-Apr-2021 10:23:14 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_04_08_every_2nd_week_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 191
+    [_wpnonce] => 2d4b0a959e
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-Apr-2021 10:23:31 UTC] Tappay debug by JanaLEE[2]
+[07-Apr-2021 10:23:31 UTC] 22614
+[07-Apr-2021 10:23:31 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_04_08_every_2nd_week_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 191
+    [_wpnonce] => 2d4b0a959e
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-Apr-2021 10:23:31 UTC] stdClass Object
+(
+    [msg] => Transaction couldn’t be refunded due to current transaction status is not allowed
+    [status] => 10054
+)
+
+[07-Apr-2021 10:23:32 UTC] Tappay debug by JanaLEE
+[07-Apr-2021 10:23:32 UTC] 22614
+[07-Apr-2021 10:23:32 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_04_08_every_2nd_week_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 191
+    [_wpnonce] => 2d4b0a959e
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-Apr-2021 10:26:42 UTC] Tappay debug by JanaLEE[2]
+[07-Apr-2021 10:26:42 UTC] 22614
+[07-Apr-2021 10:26:42 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_04_08_every_2nd_week_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 191
+    [_wpnonce] => 2d4b0a959e
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[07-Apr-2021 10:26:42 UTC] stdClass Object
+(
+    [msg] => Transaction couldn’t be refunded due to current transaction status is not allowed
+    [status] => 10054
+)
+
+[07-Apr-2021 10:26:42 UTC] Tappay debug by JanaLEE
+[07-Apr-2021 10:26:42 UTC] 22614
+[07-Apr-2021 10:26:42 UTC] Array
+(
+    [billing_first_name] => Henry
+    [billing_email] => service@based.design
+    [billing_phone] => 09894312222
+    [sum_order_price] => 2229
+    [ship_to_different_address] => 1
+    [shipping_first_name] => Henry Lin
+    [shipping_first_phone] => 0989431227
+    [delivery_option] => pickup
+    [shipping_address_1] => 自取
+    [shipping_second_name] => 無
+    [shipping_second_phone] => 
+    [florist_card_content] => -
+    [check_company_info] => 1
+    [company_title] => 
+    [company_id_number] => 
+    [order_comments] => 
+    [agreement1] => 1
+    [agreement2] => 1
+    [location_check] => true
+    [shipping_method] => Array
+        (
+            [2021_04_08_every_2nd_week_synced_0] => free_shipping:2
+        )
+
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => 191
+    [_wpnonce] => 2d4b0a959e
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+
+[12-Apr-2021 05:15:23 UTC] Tappay debug by JanaLEE
+[12-Apr-2021 05:15:23 UTC] 22768
+[12-Apr-2021 05:15:23 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => e83fc40f98
+    [_wp_http_referer] => /checkout/order-pay/22768/?pay_for_order=true&key=wc_order_607161c87bf00
+)
+
+[12-Apr-2021 05:15:23 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22768)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[12-Apr-2021 05:15:30 UTC] Tappay debug by JanaLEE
+[12-Apr-2021 05:15:30 UTC] 22768
+[12-Apr-2021 05:15:30 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => e83fc40f98
+    [_wp_http_referer] => /checkout/order-pay/22768/?pay_for_order=true&key=wc_order_607161c87bf00
+)
+
+[12-Apr-2021 05:15:30 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22768)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[12-Apr-2021 11:33:03 UTC] Tappay debug by JanaLEE
+[12-Apr-2021 11:33:03 UTC] 22768
+[12-Apr-2021 11:33:03 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [cwtpfw_remember] => 1
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => e83fc40f98
+    [_wp_http_referer] => /checkout/order-pay/22768/?pay_for_order=true&key=wc_order_607161c87bf00
+)
+
+[12-Apr-2021 11:33:03 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22768)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[12-Apr-2021 11:33:17 UTC] Tappay debug by JanaLEE
+[12-Apr-2021 11:33:17 UTC] 22768
+[12-Apr-2021 11:33:17 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => e83fc40f98
+    [_wp_http_referer] => /checkout/order-pay/22768/?pay_for_order=true&key=wc_order_607161c87bf00
+)
+
+[12-Apr-2021 11:33:17 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22768)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[12-Apr-2021 11:33:27 UTC] Tappay debug by JanaLEE
+[12-Apr-2021 11:33:27 UTC] 22768
+[12-Apr-2021 11:33:27 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => e83fc40f98
+    [_wp_http_referer] => /checkout/order-pay/22768/?pay_for_order=true&key=wc_order_607161c87bf00
+)
+
+[12-Apr-2021 11:33:27 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22768)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[12-Apr-2021 11:34:13 UTC] Tappay debug by JanaLEE
+[12-Apr-2021 11:34:13 UTC] 22768
+[12-Apr-2021 11:34:13 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => e83fc40f98
+    [_wp_http_referer] => /checkout/order-pay/22768/?pay_for_order=true&key=wc_order_607161c87bf00
+)
+
+[12-Apr-2021 11:34:13 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22768)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[12-Apr-2021 11:34:52 UTC] Tappay debug by JanaLEE
+[12-Apr-2021 11:34:52 UTC] 22768
+[12-Apr-2021 11:34:52 UTC] Array
+(
+    [payment_method] => cwtpfw
+    [wc-cwtpfw-payment-token] => new
+    [ecpay_choose_payment] => ATM
+    [woocommerce_pay] => 1
+    [_wpnonce] => e83fc40f98
+    [_wp_http_referer] => /checkout/order-pay/22768/?pay_for_order=true&key=wc_order_607161c87bf00
+)
+
+[12-Apr-2021 11:34:52 UTC] PHP Fatal error:  Uncaught Exception: Tappay: 信用卡資料不齊全，請重新輸入 in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php:280
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php(250): cloudwp\TapPay\CheckoutProcess::PaymentComplete(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay), 1)
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-payment-gateway.php(66): cloudwp\TapPay\CheckoutProcess::ReturnURL(22768, Object(WC_Order), Object(cloudwp\TapPay\WC_Gateway_TapPay))
+#2 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-form-handler.php(354): cloudwp\TapPay\WC_Gateway_TapPay->process_payment(22768)
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Form_Handler::pay_action(Object(WP))
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /srv/www/yiyuflorist_weekly/web/wp/w in /srv/www/yiyuflorist_weekly/web/app/plugins/cw-tappay/includes/class-checkout-process.php on line 280
+[12-Apr-2021 16:22:15 UTC] PHP Notice:  Undefined variable: order_id in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 27
+[12-Apr-2021 16:22:15 UTC] PHP Notice:  Undefined variable: product in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 30
+[12-Apr-2021 16:22:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_sku() on null in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php:30
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-emails.php(340): wc_get_template('emails/email-or...', Array)
+#2 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Emails->order_details(Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/admin-new-order.php(38): do_action('woocommerce_ema...', Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#6 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/wc-c in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 30
+[13-Apr-2021 03:20:21 UTC] PHP Notice:  Undefined variable: order_id in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 27
+[13-Apr-2021 03:20:21 UTC] PHP Notice:  Undefined variable: product in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 30
+[13-Apr-2021 03:20:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_sku() on null in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php:30
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-emails.php(340): wc_get_template('emails/email-or...', Array)
+#2 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Emails->order_details(Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/admin-new-order.php(38): do_action('woocommerce_ema...', Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#6 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/wc-c in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 30
+[13-Apr-2021 03:43:52 UTC] PHP Notice:  Undefined variable: order_id in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 27
+[13-Apr-2021 03:43:52 UTC] PHP Notice:  Undefined variable: product in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 30
+[13-Apr-2021 03:43:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_sku() on null in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php:30
+Stack trace:
+#0 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/class-wc-emails.php(340): wc_get_template('emails/email-or...', Array)
+#2 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(286): WC_Emails->order_details(Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#3 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /srv/www/yiyuflorist_weekly/web/wp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/admin-new-order.php(38): do_action('woocommerce_ema...', Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#6 /srv/www/yiyuflorist_weekly/web/app/plugins/woocommerce/includes/wc-c in /srv/www/yiyuflorist_weekly/web/app/themes/yiyuflorist/emails/email-order-details.php on line 30

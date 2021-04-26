@@ -199,7 +199,10 @@ class Action{
 		$strError=false;
 
 		if(isset($wp->query_vars['delete-payment-method'])){
-			wc_nocache_headers();
+
+			if(function_exists('wc_nocache_headers')){
+				wc_nocache_headers();
+			}
 
 			$intTokenID	=absint($wp->query_vars['delete-payment-method']);
 			$stdToken		=\WC_Payment_Tokens::get($intTokenID);

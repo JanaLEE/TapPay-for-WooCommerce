@@ -55,6 +55,8 @@ class Get{
 
 			$stdResponse=Extend::DecodeJSON($strResponse);
 
+			if(!is_a($stdResponse, 'stdClass')||!property_exists($stdResponse, 'card_secret'))return;
+
 			$strToken='';
 			if(property_exists($stdResponse->card_secret, 'card_key')){
 				$strToken=$stdResponse->card_secret->card_key;

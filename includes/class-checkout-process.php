@@ -202,8 +202,19 @@ class CheckoutProcess{
 			}
 
 		}else{
-			if(strpos($stdResponse->msg, 'cURL error 28:')===0||strpos($stdResponse->msg, 'cURL Error:')===0)$stdResponse->msg='連線逾時，請再試一次';
-			if($order)throw new \Exception('[3]TapPay: '.$stdResponse->msg);
+
+			/*
+			 * 2021.01.27
+			 * 新增銀行回傳訊息到 Exception 中
+			 * 用於前台顯示
+			 */
+
+			$strMessage=$stdResponse->msg;
+			if(property_exists($stdResponse, 'bank_result_msg'))$strMessage.=' '.$stdResponse->bank_result_msg;
+
+			if(strpos($strMessage, 'cURL error 28:')===0||strpos($strMessage, 'cURL Error:')===0)$strMessage='連線逾時，請再試一次';
+			if($order)throw new \Exception('[3]TapPay: '.$strMessage, $stdResponse->status);
+
 		}
 
 		return $strResponse;
@@ -243,15 +254,25 @@ class CheckoutProcess{
 			$strType=$stdClass->type;
 		}
 
+		/*
+		 * v1.2.1 2021.03.08
+		 * 先判斷先前是否付款成功，若付款成功才直接回傳 response
+		 */
+		$stdResponse=false;
+		if($strResponse){
+			$stdResponse=Extend::DecodeJSON($strResponse);
+		}
+
 		// 2020.04.08
 		//if($strResponse)return $strResponse;
-		if($strResponse){ // 付款資料已存在
+		if($strResponse&&is_a($stdResponse, 'stdClass')&&property_exists($stdResponse, 'status')&&$stdResponse->status=='0'){ // 付款資料已存在
 
 			if($strType=='pay'){
 				$stdResponse=Extend::DecodeJSON($strResponse);
 
 			}elseif($strType=='refund'){
 				$arrResult=Admin::RemotePost($strURL, $arrPostData, $stdClass);
+
 
 				$stdResponse=$arrResult['data']; // 'data': json object
 				$strResponse=$arrResult['json']; // 'json': json string
@@ -335,6 +356,10 @@ class CheckoutProcess{
 						}
 					}
 				}
+			}
+		}else{
+			if($intOrderID){ // 2021.01.27 即使付款失敗也要記錄 $strResponse，以利後續的查詢與判斷
+				update_post_meta($intOrderID, '_'.Handler::ID.'-return', $strResponse);
 			}
 		}
 
@@ -420,20 +445,23 @@ class CheckoutProcess{
 
 		if($strPostMeta)$stdPostMeta=Extend::DecodeJSON($strPostMeta);
 
-		if(!$stdPostMeta||$stdPostMeta->status!='0'){
+		if(!$stdPostMeta||(property_exists($stdPostMeta, 'status')&&$stdPostMeta->status!='0')){
+
+			$strException='TapPay: 信用卡資料不齊全';
+			if(property_exists($stdPostMeta, 'bank_result_msg')&&!empty($stdPostMeta->bank_result_msg))$strException=$stdPostMeta->bank_result_msg;
 
 			if($intException){
-				throw new \Exception('TapPay: 信用卡資料不齊全，請重新輸入');
+				throw new \Exception($strException);
 
 			}else{
 				$stdOrder=wc_get_order($intOrderID);
-				$stdOrder->add_order_note('TapPay: 信用卡資料不齊全');
+				$stdOrder->add_order_note($strException);
 				return;
 			}
+
 		}
 
 		if(WC()->cart)WC()->cart->empty_cart();
-
 		//if($stdClass->status_change!=$order->get_status())$order->update_status($stdClass->status_change);
 
 		$intReduceStock=apply_filters(Handler::ID.'_reduce-stock', true, $intOrderID);

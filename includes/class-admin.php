@@ -178,7 +178,7 @@ class Admin{
 
 	public static function AddMetaBox(){
 
-		if(!isset($_GET['post'])||!class_exists('WC_Subscriptions_Order'))return;
+		if(!isset($_GET['post']))return;
 
 		$intPostID	=$_GET['post'];
 		$stdOrder		=wc_get_order($intPostID);
@@ -194,10 +194,12 @@ class Admin{
 		/*
 		 * 訂單一定要是 renewal order 才可手動觸發扣款
 		 */
+		if(!class_exists('WC_Subscriptions_Order'))return;
 		$stdSubscription=Subscription::OrderFromRenewal($stdOrder);
 		if(!$stdSubscription)return;
 
 		add_meta_box(Handler::ID.'_manual-renew', 'TapPay 手動扣款', __CLASS__.'::Metabox', 'shop_order', 'side', 'default');
+
 	}
 
 	public static function MetaBox($stdPost, $arrParam){

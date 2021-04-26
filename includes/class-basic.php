@@ -239,7 +239,7 @@ class Basic{
 		global $wp_query;
 
 		if(is_account_page()||is_checkout()){
-			wp_enqueue_script(Handler::ID.'-sdk', 'https://js.tappaysdk.com/tpdirect/v5.1.0', array(), '1.1', true);
+			wp_enqueue_script(Handler::ID.'-sdk', 'https://js.tappaysdk.com/tpdirect/v5.5.1', array(), '1.2.1', true);
 
 			$stdClass=new WC_Gateway_TapPay;
 

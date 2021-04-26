@@ -6,12 +6,12 @@
  * Author URI:	https://cloudwp.pro/
  * Text Domain: cw-tappay
  * Domain Path: /languages/
- * Version:			1.2
+ * Version:			1.2.1
  * Tested up to:					4.9.7
  * WC requires at least:	2.6
  * WC tested up to:				3.5.5
  * Plugin Slug: cw-tappay
- * Published:		2020.12.14
+ * Published:		not yet
  */
 /*<cloudwp />*/
 namespace cloudwp\TapPay;

@@ -62,8 +62,14 @@ class Extend{
 		/*===TapPay bind card api 2020.04.01===*/
 
 		if(is_admin()){
-			require CWTAPPAY_DIR.'/plugin-updates/plugin-update-checker.php';
-			\PucFactory::buildUpdateChecker('https://auth.woocloud.io/update/tappay/info.json', CWTAPPAY_File);
+			/*===New version of Plugin update checker===*/
+			require CWTAPPAY_DIR.'/plugin-update-checker/plugin-update-checker.php';
+			\Puc_v4_Factory::buildUpdateChecker(
+				'https://auth.woocloud.io/update/tappay/info.json', 
+				CWTAPPAY_File,
+				'cw-tappay'
+			);
+			/*===New version of Plugin update checker===*/
 
 			add_filter('plugin_action_links_'.CWTAPPAY_BaseName, __NAMESPACE__.'\\Basic::PluginActionLinks');
 			add_action('in_plugin_update_message-'.basename(CWTAPPAY_DIR).'/'.basename(CWTAPPAY_File), __NAMESPACE__.'\\Admin::AdditionalUpdateMessages', 20, 2);

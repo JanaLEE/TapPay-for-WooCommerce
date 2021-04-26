@@ -1,0 +1,111 @@
+FIELDSET#wc-cwtpfw-cc-form > UL.woocommerce_error.woocommerce-error{
+	margin-bottom:15px;
+}
+
+FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(1) INPUT, 
+FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(2) SELECT, 
+FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(3) INPUT{
+	border-radius:0;
+
+	/* background-color:#FFF; */
+
+}
+
+/* DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(2) */
+DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form P.form-row.form-row-first{
+	float:left;
+	width:70%;
+	clear:left;
+	line-height:200%;
+}
+
+DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form P.form-row.form-row-last{
+	float:left;
+	width:30%;
+	line-height:200%;
+	text-align:right;
+}
+
+/* DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(2) > LABEL */
+DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form LABEL[for="cwtpfw-card-expiry-month"], 
+DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form LABEL[for="cwtpfw-card-expiry-year"]{
+	display:inline-block;
+	margin:0;
+	width:40%;
+}
+
+/* DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(2) SELECT, */
+SELECT#cwtpfw-card-expiry-month, 
+SELECT#cwtpfw-card-expiry-year{
+	/* padding:10px 3px; */
+	border:solid 1px #999;
+
+	background-image:url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%3E%3C%2Fpolygon%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%3E%3C%2Fpolygon%3E%0A%3C%2Fsvg%3E%0A);
+
+	background-repeat:no-repeat;
+	background-position:100% 50%;
+	background-size:inherit;
+
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	padding:0;
+
+	width:90%;
+	height:36px;
+	line-height:36px;
+
+}
+
+DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(3){
+	float:left;
+	width:35%;
+	clear:none;
+	line-height:200%;
+
+	/* text-align:right; */
+
+}
+
+FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(3) INPUT#cwtpfw-card-cvc{
+	/*
+	padding:12px 8px;
+	line-height:100%;
+	*/
+	font-size:14px;
+}
+
+DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form LABEL[for="cwtpfw-card-cvc"]{
+	padding-bottom:0;
+	margin:0;
+}
+
+DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form LABEL[for="cwtpfw-card-cvc"]+INPUT#cwtpfw-card-cvc{
+	margin:0;
+	height:36px;
+	line-height:36px;
+	padding:0 10px;
+}
+
+UL.woocommerce-SavedPaymentMethods[data-count="0"] > LI.woocommerce-SavedPaymentMethods-new{
+	display:none;
+}
+
+@media only screen 
+and (min-width: 320px) 
+and (max-width: 736px) 
+and (orientation: portrait){
+	DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(2){
+		float:none;
+		width:100%;
+	}
+
+	DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(2) > LABEL{
+		width:45%;
+		margin:0;
+	}
+
+	DIV#cwtpfw-payment-data FIELDSET#wc-cwtpfw-cc-form > P:nth-of-type(2) SELECT{
+		width:85%;
+	}
+
+}
